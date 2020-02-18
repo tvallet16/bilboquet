@@ -1,0 +1,24 @@
+.lfBand{
+    justify-content: space-between;
+}
+
+.band{
+    height: 90vh;
+    width: 10vw;
+    background-image: url("../img/bilboquet.jpg");
+    position: sticky;
+}
+
+.choices{
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.choice{
+    width: 30vw;
+    height: 30vh;
+}
+
+.midleBand{
+    
+}

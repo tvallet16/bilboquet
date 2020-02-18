@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url("../img/wallPaper.jpg");
+}
+
+.flex{
+    display: flex;
+}
+
+main>div{
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin:1em;
+}
+
+.login{
+    margin-top: 4%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: solid brown 1px;
+    border-radius: 20px;
+}
+
+.login>input{
+    max-width: 30%;
+    margin: 1em;
+}
+
+#submit{
+    background-color: brown;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+}
+
+.none{
+    display: none;
+}
+

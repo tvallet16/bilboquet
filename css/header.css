@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.none{
+    display: none;
+}
+
+nav{
+    height: 10vh;
+    background-color: #000;
+    position: sticky;
+}
+
+nav>ul{
+    
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+}
+
+nav>ul>li{
+    text-align: center;
+    list-style-type: none;
+    background-color: brown;
+    border: solid brown 1px;
+    border-radius: 1em;
+    padding: 1%;
+    transition: 0.5s;
+
+}
+
+nav>ul>li:hover{
+    list-style-type: none;
+    background-color: #732626;
+    border: solid #732626 1px;
+    border-radius: 1em;
+    padding: 1%;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    padding: 0;
+    width: 4em;
+    height: 4em;
+    
+}
+
+#user{
+    padding: 0;
+    width: 3em;
+    height: 3em;
+}
+
+.profil:hover .none{
+    text-align: center;
+    display: block;
+    color: white;
+    position: absolute;
+    background-color: brown;
+    padding: 0.5em;
+    list-style-type: none;
+    border-radius: 1em;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    transition: 0.4s;
+    color: lightpink;
+    transform: scale(2);
+}
