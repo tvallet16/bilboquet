@@ -1,24 +1,44 @@
 .lfBand{
     justify-content: space-between;
-}
-
-.band{
-    height: 90vh;
-    width: 10vw;
-    background-image: url("../img/bilboquet.jpg");
-    position: sticky;
+    
 }
 
 .choices{
     flex-wrap: wrap;
-    width: 80vw;
+    justify-content: center;
 }
 
-.choice{
+main{
+    height: 85vh;
+}
+
+
+.imgChoice{
     width: 30vw;
     height: 30vh;
+    margin-left: 1em;
+}
+
+.imgChoiceP{
+    width: 25vw;
+    height: 35vh;
+    margin-left: 1em;
+}
+
+.choiceText{
+    width: 40vw;
+    margin-left: 1em;
 }
 
 .midleBand{
+    height: 85vh;
+    width: 100vw;
     
+}
+
+.reverse{
+    margin-top: 2em;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
 }

@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.imgK{
+    width: 50vw;
+}
+
+.description{
+    flex-direction: column;
+}
+
+.lfBand{
+    justify-content: space-between;
+    
+}
+
+.bandR{
+    height: 85vh;
+    width: 8vw;
+    background-image: url("../img/bilboquet.jpg");
+    float: right;
+        
+}
+
+.bandL{
+    height: 85vh;
+    width: 8vw;
+    background-image: url("../img/bilboquet-miroir.jpg");
+    background-repeat: no-repeat;
+}
+
+.img-desc{
+    text-align: center;
+}
+
+.text-desc{
+    width: 80vw;
+}

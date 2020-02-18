@@ -1,0 +1,25 @@
+.set-form{
+    justify-content: center;
+}
+
+main{
+    height: 85vh;
+}
+
+.set-form>form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid brown 1px;
+    border-radius:20px ;
+    width: 40vw;
+}
+
+.set{
+    justify-content: center;
+
+}
+
+.set-form>form input{
+    margin-bottom: 1em;
+}

@@ -18,7 +18,6 @@ body{
 nav{
     height: 10vh;
     background-color: #000;
-    position: sticky;
 }
 
 nav>ul{
@@ -85,5 +84,12 @@ nav>ul>li>a{
 .link:hover{
     transition: 0.4s;
     color: lightpink;
-    transform: scale(2);
+}
+
+.footer{
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
 }
